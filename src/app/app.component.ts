@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'primpasAng';
+  isAuth=true; 
+  
+
+onAllumer()
+{
+    alert('vous allumez tout');
+    console.log('Tout est allumer');
 }
+}
+
