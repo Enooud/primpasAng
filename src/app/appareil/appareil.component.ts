@@ -7,18 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppareilComponent implements OnInit {
 
-    
+
 /*appareilName= 'machine à laver';
 appareilStatus='éteint';*/
-isAuth= true;
+isAuth = true;
   constructor() { }
 
   ngOnInit() {
   }
-  
-  getStatus()
-  {
-    return this.appareilStatus;
+
+  getStatus() {
+   /*return this.appareilStatus;*/
   }
 
 }

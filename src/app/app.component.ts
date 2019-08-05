@@ -6,33 +6,28 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-    appareils= [
+    appareils = [
     {
       name: 'Woofer',
-      status: 'éteint'  
-        
+      status: 'éteint'
+
     },
     {
         name: 'télivision',
-        status: 'alumer'  
+        status: 'alumer'
     },
-    
     {
-        name:'ordinateur',
-        status:'éteint'
+        name: 'ordinateur',
+        status: 'éteint'
     }
-    
-]; 
-    
-  /* mis en commentaire 
+];
+  /* mis en commentaire
   title = 'primpasAng';
-  isAuth=true; 
+  isAuth=true;
   */
 
-onAllumer()
-{
-    alert('vous allumez tout');
-    console.log('Tout est allumer');
+onAllumer() {
+  alert('vous allumez tout');
+  console.log('Tout est allumer');
+  }
 }
-}
-
