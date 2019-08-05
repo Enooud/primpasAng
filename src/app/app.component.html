@@ -4,17 +4,17 @@
         <div class="col-xm-12">
             <ul class="list-group">
                 <app-appareil></app-appareil>
-                <app-appareil></app-appareil>
-                <app-appareil></app-appareil>
-                <app-appareil></app-appareil>
-            </ul>
+               <app-appareil 
+                *ngFor = "let appareil of appareils"
+                [appareilName]="appareil.name" [apparaielStatus]="appareil.status"></app-appareil>
+            </ul> 
         </div>
     </div>
     <div class="row">
         <div class="col-xm-4">
-            <button class="btn btn-success"  [disabled]="!isAuth" 
+            <button class="btn btn-success"  [disabled]="isAuth" 
              (click)= "onAllumer()">Tout alumer 
             </button>
-        </div>
+        </div>  
     </div>
 </div>

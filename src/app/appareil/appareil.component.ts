@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppareilComponent implements OnInit {
 
-appareilName= 'machine à laver';
-appareilStatus='éteint';
-isAuth= false;
+    
+/*appareilName= 'machine à laver';
+appareilStatus='éteint';*/
+isAuth= true;
   constructor() { }
 
   ngOnInit() {

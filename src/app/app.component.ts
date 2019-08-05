@@ -6,9 +6,28 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+    appareils= [
+    {
+      name: 'Woofer',
+      status: 'éteint'  
+        
+    },
+    {
+        name: 'télivision',
+        status: 'alumer'  
+    },
+    
+    {
+        name:'ordinateur',
+        status:'éteint'
+    }
+    
+]; 
+    
+  /* mis en commentaire 
   title = 'primpasAng';
   isAuth=true; 
-  
+  */
 
 onAllumer()
 {
