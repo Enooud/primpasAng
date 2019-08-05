@@ -9,7 +9,7 @@ export class AppareilComponent implements OnInit {
 
 
 appareilName = 'machine à laver';
-appareilStatus = 'éteint';
+appareilStatus = 'allumé';
 isAuth = true;
   constructor() { }
 
@@ -18,6 +18,14 @@ isAuth = true;
 
   getStatus() {
    return this.appareilStatus;
+  }
+
+  getColor(){
+    if (this.appareilStatus == 'éteint'){
+      return 'red';
+    }else if (this.appareilStatus == 'allumé'){
+       return 'green';
+    }
   }
 
 }

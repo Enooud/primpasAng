@@ -14,7 +14,7 @@ export class AppComponent {
     },
     {
         name: 'télivision',
-        status: 'alumer'
+        status: 'allumé'
     },
     {
         name: 'ordinateur',
