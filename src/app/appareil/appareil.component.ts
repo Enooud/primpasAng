@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class AppareilComponent implements OnInit {
 
 
-/*appareilName= 'machine à laver';
-appareilStatus='éteint';*/
+appareilName = 'machine à laver';
+appareilStatus = 'éteint';
 isAuth = true;
   constructor() { }
 
@@ -17,7 +17,7 @@ isAuth = true;
   }
 
   getStatus() {
-   /*return this.appareilStatus;*/
+   return this.appareilStatus;
   }
 
 }
