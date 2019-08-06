@@ -9,7 +9,7 @@ export class AppareilComponent implements OnInit {
 
 
 appareilName = 'machine à laver';
-appareilStatus = 'allumé';
+appareilStatus = 'éteint';
 isAuth = true;
   constructor() { }
 
