@@ -11,6 +11,10 @@ export class AuthService {
                 }, ms: 2000
             );
          }
-     )
+     );
+ }
+
+ signOut(){
+     
  }
 }
